@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    color: coral;
+}
+
+#input1 {
+    text-align: justify;
+} 
+
+button {
+    border: 10px 10px 10px 10px;
+    text-align: center;
+    width: 500px;
+    color: blueviolet;
+}
