@@ -1,15 +1,94 @@
-h1 {
-    text-align: center;
-    color: coral;
+html{
+    background-image: linear-gradient(to right, rgb(196, 61, 124), rgb(204, 198, 198), rgb(42, 184, 194));
 }
 
-#input1 {
-    text-align: justify;
-} 
+h1 {
+    font-style: Sans-serif;
+    color: linear-gradient(to right, black, white);
+    text-align: justify right;
+    color: rgb(116, 52, 29);
+    font-size: 70px;
+}
 
-button {
-    border: 10px 10px 10px 10px;
+h2{
+    font-style: sans-serif;
     text-align: center;
-    width: 500px;
-    color: blueviolet;
+    color: black;
+    font-size: 50px;
+}
+
+button{
+    font-size: 25px;
+    background-image: linear-gradient(to right, rgb(211, 78, 140), rgb(65, 199, 209));
+    text-align: center; 
+    color: white;
+    border-style: none;
+    border-radius: 30px;
+    width: 25%;
+    padding: 5px;
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+button:hover {
+    box-shadow: 5px 5px 5px lightblue;
+    transition-timing-function: ease-in-out;
+    transition: 0.3s;
+}
+
+input {
+    border-style: hidden;
+    border-radius: 12px;
+    padding: 5px;
+    background-color: rgb(218, 203, 185);    
+}
+
+p {
+    font-style: sans-serif;
+    font-size: 15px;
+    margin-bottom: 0mm;
+}
+
+#help {
+    font-size: 12px;
+    text-align: end;
+}
+
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    height: 600px;
+}
+
+#column-n {
+    background-color: rgb(253, 239, 215);
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    height: 600px;
+    border-color: aliceblue;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img {
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 90px; 
+    height: 90px;
 }
